@@ -12,8 +12,10 @@ Tested on a very old Ubuntu 8.04 for configuration files of the following vendor
 
 Example of output for the command "cmatch.py VDOM * "
 
+```
 device1.cfg: service > vpls 00001 customer 1001 create > sap 1/1/1:100 create > description "Service VDOM 00001"
 device2.cfg: service > vpls 00002 customer 1002 create > description "Internal VDOM"
 device3.cfg: service > vpls 00003 customer 1003 create > sap 1/2/1:101 create > description "Service VDOM 00002"
+```
 
 
